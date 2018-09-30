@@ -1,8 +1,14 @@
 ﻿<Properties StartupConfiguration="{28FCF307-BCEB-DF00-C466-08C29A16E02D}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Sources/PlayerControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Sources/RemoveExplosionEffect.cs">
     <Files>
-      <File FileName="Assets/Sources/PlayerControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Sources/PlayerControl.cs" Line="36" Column="23" />
+      <File FileName="Assets/Sources/FxControl.cs" Line="7" Column="1" />
+      <File FileName="Assets/Sources/AsteroidRotation.cs" Line="13" Column="60" />
+      <File FileName="Assets/Sources/DestroyAsteroid.cs" Line="19" Column="41" />
+      <File FileName="Assets/Sources/AsteroidMovement.cs" Line="18" Column="1" />
+      <File FileName="Assets/Sources/GameControl.cs" Line="41" Column="54" />
+      <File FileName="Assets/Sources/RemoveExplosionEffect.cs" Line="9" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

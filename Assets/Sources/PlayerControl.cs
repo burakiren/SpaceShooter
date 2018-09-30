@@ -14,12 +14,27 @@ public class PlayerControl : MonoBehaviour {
     public float minZ;
     public float maxZ;
     public float aim;
-
+    public float fireDelayTime;
+    float fireTime = 0;
+    public GameObject bullet;
+    public Transform bulletExit;
+    AudioSource bulletVoice;
 
 	void Start () {
         physic = GetComponent<Rigidbody>();
+        bulletVoice = GetComponent<AudioSource>();
 		
 	}
+
+    void Update(){
+
+        if(Input.GetButton("Fire1") && Time.time > fireTime) {
+            fireTime = Time.time + fireDelayTime;
+            Instantiate(bullet, bulletExit.position, Quaternion.identity);
+            bulletVoice.Play();
+        }
+
+    }
 	
 	void FixedUpdate () {
 

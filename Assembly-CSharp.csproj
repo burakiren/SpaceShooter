@@ -71,7 +71,14 @@
     <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
+    <Compile Include="Assets\Sources\AsteroidMovement.cs" />
+    <Compile Include="Assets\Sources\AsteroidRotation.cs" />
+    <Compile Include="Assets\Sources\DestroyAsteroid.cs" />
+    <Compile Include="Assets\Sources\FxControl.cs" />
+    <Compile Include="Assets\Sources\GameControl.cs" />
+    <Compile Include="Assets\Sources\LimitArea.cs" />
     <Compile Include="Assets\Sources\PlayerControl.cs" />
+    <Compile Include="Assets\Sources\RemoveExplosionEffect.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/mac/UnityProjects/Space Shooter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
